@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Test HTML
 ---
 
 # Hi, {{ $doc.title }}
@@ -8,12 +8,12 @@ title: Home
 
 Paragraph test
 
-::CustomBlock{color="red"}
-This is the `custom-block` component. Using color `red` via props.
-::
+<ul class="list">
+    <li class="list-item">Item 1</li>
+</ul>
 
-::CustomBlock{color="blue"}
-This is the `custom-block` component. Using color `blue` via props.
-::
+The list above should have custom classes (`list` and `list-item`).
 
-[Go to HTML example](./test-html)
+<div data-something="important">Test Div with Attrs</div>
+
+This paragraph should have a custom `data-` attr.
