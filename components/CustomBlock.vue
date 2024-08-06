@@ -1,8 +1,8 @@
 <template>
   <div
     class="custom-block"
-    v-bind="{
-      class: color,
+    :style="{
+      color,
     }"
   >
     <slot />

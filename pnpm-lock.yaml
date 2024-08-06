@@ -11,16 +11,15 @@ importers:
       '@nuxt/content':
         specifier: ^2.13.2
         version: 2.13.2(ioredis@5.4.1)(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@22.1.0)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)(vite@5.3.5(@types/node@22.1.0)(terser@5.31.3)))(rollup@4.20.0)(vue@3.4.36(typescript@5.5.4))
+      '@nuxthq/studio':
+        specifier: ^2.0.3
+        version: 2.0.3(magicast@0.3.4)(rollup@4.20.0)
       nuxt:
         specifier: ^3.12.4
         version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@22.1.0)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)(vite@5.3.5(@types/node@22.1.0)(terser@5.31.3))
       vue:
         specifier: latest
         version: 3.4.36(typescript@5.5.4)
-    devDependencies:
-      '@nuxthq/studio':
-        specifier: ^2.0.3
-        version: 2.0.3(magicast@0.3.4)(rollup@4.20.0)
 
 packages:
 
