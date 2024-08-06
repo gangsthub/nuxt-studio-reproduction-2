@@ -14,3 +14,4 @@ Paragraph test
 
 The list above should have custom classes (`list` and `list-item`).
 
+[Go to Components example](/)
