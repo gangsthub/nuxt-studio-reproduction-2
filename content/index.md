@@ -8,7 +8,7 @@ title: Test HTML
 
 Paragraph test
 
-::custom-block{ :title="title" }
+::custom-block{:title="title"}
 This is a paragraph inside a custom component...
 
 #image
