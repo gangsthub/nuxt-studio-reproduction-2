@@ -1,21 +1,12 @@
 <template>
-  <div
-    class="custom-block"
-    :style="{
-      color,
-    }"
-  >
+  <div class="custom-block">
+    <h1>{{ title }}</h1>
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-withDefaults(
-  defineProps<{
-    color: 'red' | 'blue';
-  }>(),
-  {
-    color: 'red',
-  }
-);
+defineProps<{
+  title: string;
+}>();
 </script>
