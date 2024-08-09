@@ -10,4 +10,8 @@ Paragraph test
 
 ::custom-block{ :title="title" }
 Hello, custom block
+
+#image
+<img src="https://www.gstatic.com/marketing-cms/assets/images/ads/1a/92/13f722c54a32b554aae12866e7bb/logo-google-fullcolor-284x93px.svg" loading="lazy" />
+
 ::
